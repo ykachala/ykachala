@@ -56,11 +56,11 @@ I specialise in the hard backend problems — systems that need to be fast, cons
 
 | Repo | What it is | Stack |
 |------|-----------|-------|
-| [nexus-scheduler](https://github.com/joel767443/nexus-scheduler) | AI-powered scheduling assistant with natural language booking | TypeScript · Anthropic · Redis · WebSockets |
-| [saas-multitenant-kit](https://github.com/joel767443/saas-multitenant-kit) | Production-grade multi-tenant SaaS boilerplate with billing | Laravel · PostgreSQL · Paystack · Docker |
-| [hookstream](https://github.com/joel767443/hookstream) | Webhook delivery engine with retry logic, queuing & observability | TypeScript · Redis · BullMQ · Kubernetes |
-| [devpulse](https://github.com/joel767443/devpulse) | GitHub activity intelligence platform with AI-generated profiles | TypeScript · Prisma · GitHub API · Claude |
-| [finparse-ai](https://github.com/joel767443/finparse-ai) | AI document parser for invoices and financial statements | Python · FastAPI · Claude Vision · AWS S3 |
+| [nexus-scheduler](https://github.com/ykachala/nexus-scheduler) | AI-powered scheduling assistant with natural language booking | TypeScript · Anthropic · Redis · WebSockets |
+| [saas-multitenant-kit](https://github.com/ykachala/saas-multitenant-kit) | Production-grade multi-tenant SaaS boilerplate with billing | Laravel · PostgreSQL · Paystack · Docker |
+| [hookstream](https://github.com/ykachala/hookstream) | Webhook delivery engine with retry logic, queuing & observability | TypeScript · Redis · BullMQ · Kubernetes |
+| [devpulse](https://github.com/ykachala/devpulse) | GitHub activity intelligence platform with AI-generated profiles | TypeScript · Prisma · GitHub API · Claude |
+| [finparse-ai](https://github.com/ykachala/finparse-ai) | AI document parser for invoices and financial statements | Python · FastAPI · Claude Vision · AWS S3 |
 
 ---
 

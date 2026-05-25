@@ -1,6 +1,6 @@
 # Yoweli Kachala — Senior Backend Engineer & Systems Architect
 
-> I build backend systems that don't break under pressure. 15+ years designing high-throughput platforms, multi-tenant SaaS, Fintech infrastructure, and distributed systems across Africa, the UK, and globally.
+> I build backend systems that don't break under pressure — **4,107 events/sec** webhook delivery at p95 8ms, **96.1% document extraction accuracy** on financial documents, **88% latency reduction** on a national messaging platform. 15+ years designing high-throughput platforms, multi-tenant SaaS, Fintech infrastructure, and distributed systems across Africa, the UK, and globally.
 
 ---
 
@@ -56,11 +56,15 @@ I specialise in the hard backend problems — systems that need to be fast, cons
 
 | Repo | What it is | Stack |
 |------|-----------|-------|
-| [nexus-scheduler](https://github.com/ykachala/nexus-scheduler) | AI-powered scheduling assistant with natural language booking | TypeScript · Anthropic · Redis · WebSockets |
-| [saas-multitenant-kit](https://github.com/ykachala/saas-multitenant-kit) | Production-grade multi-tenant SaaS boilerplate with billing | Laravel · PostgreSQL · Paystack · Docker |
-| [hookstream](https://github.com/ykachala/hookstream) | Webhook delivery engine with retry logic, queuing & observability | TypeScript · Redis · BullMQ · Kubernetes |
-| [devpulse](https://github.com/ykachala/devpulse) | GitHub activity intelligence platform with AI-generated profiles | TypeScript · Prisma · GitHub API · Claude |
-| [finparse-ai](https://github.com/ykachala/finparse-ai) | AI document parser for invoices and financial statements | Python · FastAPI · Claude Vision · AWS S3 |
+| [hookstream](https://github.com/ykachala/hookstream) | Webhook delivery engine — **4,107 ev/s at p95 8ms**, guaranteed delivery, circuit breakers, AI diagnostics | TypeScript · Redis · BullMQ · Kubernetes |
+| [finparse-ai](https://github.com/ykachala/finparse-ai) | AI document parser — **96.1% field extraction accuracy** on South African financial documents | Python · FastAPI · Claude Vision · AWS S3 |
+| [nexus-scheduler](https://github.com/ykachala/nexus-scheduler) | AI-powered scheduling API with natural language booking, concurrency-safe slot reservation | TypeScript · Anthropic · Redis · WebSockets |
+| [recon-engine](https://github.com/ykachala/recon-engine) | Transaction reconciliation service — ~2,400 records/sec, exact + fuzzy matching, discrepancy reporting | Python · Django 5 · Celery · PostgreSQL |
+| [billing-worker](https://github.com/ykachala/billing-worker) | Subscription billing processor — Stripe charges, retry dunning, webhook reconciliation | Python · FastAPI · Celery · SQLAlchemy |
+| [devpulse](https://github.com/ykachala/devpulse) | GitHub activity intelligence platform with AI-generated developer profiles | TypeScript · Prisma · GitHub API · Claude |
+| [saas-multitenant-kit](https://github.com/ykachala/saas-multitenant-kit) | Production multi-tenant SaaS boilerplate — tenant isolation, plan gating, Stripe + Paystack | Laravel · PostgreSQL · Paystack · Docker |
+| [pharmacy-data-sync](https://github.com/ykachala/pharmacy-data-sync) | Healthcare dispensing data sync — incremental facility sync, bulk insert, Celery workers | Python · Django 3.2 · PostgreSQL · Redis |
+| [nodebase](https://github.com/ykachala/nodebase) | Self-hosted backend-as-a-service — auth, document store, WebSocket subscriptions, zero dependencies | Java 21 |
 
 ---
 
@@ -69,13 +73,13 @@ I specialise in the hard backend problems — systems that need to be fast, cons
 ```
 2006 ──── Backend & systems engineering, Government of Malawi (payroll, HR, national-scale B2B)
 2012 ──── High-throughput messaging platform — reduced latency 88% (3hrs → <20min)
-2016 ──── Enterprise systems: Samsung, MTN, Cell C, UK NHS
+2016 ──── Enterprise systems: Samsung, MTN, Cell C, UK NHS · spring-audit-service (2018)
 2019 ──── Real-time fleet tracking, CI/CD overhaul (-70% deployment failures)
-2020 ──── National pharmacy & healthcare systems, City of Cape Town
-2021 ──── Subscription billing & recurring payments at scale — FlexClub
-2022 ──── Enterprise logistics, inventory & financial system integration — Emendis
+2020 ──── National pharmacy & healthcare systems, City of Cape Town · pharmacy-data-sync
+2021 ──── Subscription billing & recurring payments at scale — FlexClub · billing-worker
+2022 ──── Enterprise logistics, inventory & financial system integration — Emendis · recon-engine
 2024 ──── Multi-tenant hotel SaaS, rescued 3 stalled modules — RoomRaccoon
-2025 ──── Founder: CapeRidaz (ride tracking platform) · Calendrax (multi-tenant booking SaaS)
+2025 ──── hookstream: 4,107 ev/s webhook engine · finparse-ai: 96.1% doc extraction · nexus-scheduler: NL booking API · CapeRidaz · Calendrax
 ```
 
 ---
